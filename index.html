@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Playfair", system-ui;
+
+        }
+    </style>
+
+    <!--tailwind css  -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div
+        class="w-full md:h-screen h-96 bg-[url('https://static.wixstatic.com/media/nsplsh_306e5430385a2d4d686945~mv2_d_5472_3072_s_4_2.jpg/v1/fill/w_980,h_550,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/nsplsh_306e5430385a2d4d686945~mv2_d_5472_3072_s_4_2.jpg')] bg-no-repeat bg-cover">
+        <div class="w-full md:h-screen h-96" style="background-color: rgba(0, 0, 0, 0.388);">
+            <nav class="w-full p-6 bg-red-950  flex items-center justify-center">
+                <ul class="flex text-white  justify-evenly w-full">
+                    <li class="text-xl hover:text-yellow-300 hover:cursor-pointer">Specials</li>
+                    <li class="text-xl hover:text-yellow-300 hover:cursor-pointer">About</li>
+                    <li class="text-xl hover:text-yellow-300 hover:cursor-pointer">Menu</li>
+                    <li class="text-xl hover:text-yellow-300 hover:cursor-pointer">Chef</li>
+                    <li class="text-xl hover:text-yellow-300 hover:cursor-pointer">Contact</li>
+                </ul>
+            </nav>
+
+            <div class="flex justify-center items-center w-full flex-col md:pt-72 pt-20">
+                <h1 class="text-white md:text-9xl text-6xl">GUSTO</h1>
+                <p class="text-white text-xl mt-4 p-4 text-center">Where every meal is a masterpiece and every visit
+                    feels like home.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- specials -->
+
+    <div class="w-full flex justify-center items-center flex-col">
+        <h1 class="text-4xl mt-20">OUR SPECIALS</h1>
+        <div class="h-1 w-40 bg-red-950 mb-4">
+
+        </div>
+
+        <div class=" mt-20 md:px-40  md:grid grid-cols-3 w-full">
+            <div class="p-8">
+                <h1 class="text-3xl text-center mb-2 ">Lorem ipsum dolor</h1>
+                <img src="./images/food1.jpg" alt="no image" class="w-full max-h-56">
+                <p class="mt-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nam
+                    atque repellat dolore animi odit beatae quaerat itaque natus doloremque.</p>
+            </div>
+            <div class="p-8">
+                <h1 class="text-3xl text-center mb-2">Lorem ipsum dolor</h1>
+                <img src="./images/food2.jpg" alt="no image" class=" w-full max-h-56">
+                <p class="mt-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nam
+                    atque repellat dolore animi odit beatae quaerat itaque natus doloremque.</p>
+            </div>
+            <div class="p-8">
+                <h1 class="text-3xl text-center mb-2">Lorem ipsum dolor</h1>
+                <img src="./images/food3.jpeg" alt="no image" class=" w-full max-h-56">
+                <p class="mt-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nam
+                    atque repellat dolore animi odit beatae quaerat itaque natus doloremque.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- our story -->
+
+    <div class="bg-slate-300 w-full my-20 md:grid grid-cols-2">
+        <div>
+            <img src="./images/res.jpg" alt="no image" class="w-full h-full ">
+        </div>
+        <div class="md:px-40 px-10">
+            <div class="flex justify-center items-center flex-col my-10">
+                <h1 class="text-4xl">OUR STORY</h1>
+                <div class="h-1 w-40 bg-red-500 ">
+
+                </div>
+            </div>
+            <p class="text-center text-justify mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                doloribus nemo voluptatum dicta laudantium ex maiores! Omnis aspernatur laborum, et expedita, fugit
+                sapiente praesentium architecto assumenda, placeat reprehenderit corporis commodi? Lorem ipsum dolor sit
+                amet consectetur, adipisicing elit. Cumque natus velit sequi expedita voluptate dolores sint asperiores
+                quaerat, pariatur, voluptatem magnam architecto explicabo maxime eaque quis iste iure consequuntur quia.
+            </p>
+
+            <p class="mt-10 text-justify pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae
+                fuga asperiores architecto neque tempora eos soluta ea! Molestiae voluptates esse magni maiores aliquid,
+                similique qui. Distinctio vel nemo veniam. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Hic, aliquam natus corrupti repellendus laborum voluptatum! Voluptatem ullam animi perferendis porro
+                officia non expedita natus magnam tempora, dolorem quisquam magni eos!</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- menu -->
+
+    <div class="w-full ">
+        <div class="flex justify-center items-center flex-col my-20">
+            <h1 class="text-4xl">MENU</h1>
+            <div class="w-28 h-1 bg-red-500">
+
+            </div>
+        </div>
+
+        <div class="md:grid grid-cols-2 md:px-40 px-6">
+            <div class="flex justify-center items-center flex-col my-10 md:p-16 p-10">
+                <h1 class="text-4xl text-center">BREAKFAST & STARTS</h1>
+                <div class="w-56 h-1 bg-red-500">
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center flex-col my-10 md:p-16 p-10">
+                <h1 class="text-4xl">MAIN COURSE</h1>
+                <div class="w-56 h-1 bg-red-500">
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h1>Tortellini Skewers</h1>
+                        <span>$9</span>
+                    </div>
+                    <p class="text-justify mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        repellat odio explicabo
+                        doloribus, unde minima molestiae libero, animi quibusdam et aut! Error neque incidunt
+                        consectetur culpa adipisci blanditiis sequi saepe.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 w-full flex">
+        <div>
+            <img src="./images/card.webp" alt="no img" class="w-full h-96">
+        </div>
+        <div>
+            <img src="./images/card2.jpg" alt="no img" class="w-full h-96">
+
+        </div>
+        <div>
+            <img src="./images/card3.jpeg" alt="no img" class="w-full h-96">
+
+        </div>
+        <div>
+            <img src="./images/card4.jpg" alt="no img" class="w-full h-96">
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="w-full bg-slate-700 py-5 ">
+
+        <div class="grid grid-cols-3">
+            <div class="flex justify-center items-center mt-5 flex-col">
+                <h2 class="text-2xl text-white">RESERVATIONS</h2>
+                <div class="mt-2 h-1 w-20 bg-red-800">
+
+                </div>
+                <p class="text-white mt-4">Please call</p>
+                <p class="text-white">(887)654-3210</p>
+            </div>
+            <div class="flex justify-center items-center mt-5 flex-col">
+                <h2 class="text-2xl text-white">ADDRESS</h2>
+                <div class="mt-2 h-1 w-20 bg-red-800">
+
+                </div>
+                <p class="text-white mt-4">4321 California St,</p>
+                <p class="text-white">San Francisco, CA 12345</p>
+            </div>
+            <div class="flex justify-center items-center mt-5 flex-col">
+                <h2 class="text-2xl text-white">OPENING HOURS</h2>
+                <div class="mt-2 h-1 w-20 bg-red-800">
+
+                </div>
+                <p class="text-white mt-4">Mon-Thurs: 10:00 AM - 11:00 PM</p>
+                <p class="text-white">Fri-Sun: 11:00 AM - 02:00 AM</p>
+            </div>
+        </div>
+
+
+        <div class="flex-col flex justify-center items-center mt-16">
+            <h1 class="text-center text-white text-2xl">SEND US A MESSAGE</h1>
+            <div class="mt-2 h-1 w-20 bg-red-800"></div>
+        </div>
+
+        <div class="grid grid-cols-3 ">
+            <div>
+
+            </div>
+
+            <div class="mt-6 ">
+                <div class="flex justify-center items-center">
+                    <input type="text" placeholder="Name" class="w-full me-2">
+
+                    <input type="email" placeholder="Email" class="w-full ">
+                </div>
+
+                <div>
+                    <textarea placeholder="message" class="w-full h-24   mt-4"></textarea>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="rounded-none text-white border border-white px-6 py-3">SEND MESSAGE</button>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+
+    <div class="bg-indigo-900 h-12">
+        <p class="text-white p-3 mx-44">©Copyright.All rights reserved | Designed by Anjali As</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
